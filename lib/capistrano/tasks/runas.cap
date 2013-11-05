@@ -1,0 +1,7 @@
+
+desc "Change Ownership for /var/www"
+task :chown_varwww do
+  on roles(:all) do |host|
+      sudo "chown -R www-data.ambot /var/www"
+  end
+end
