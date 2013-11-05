@@ -19,7 +19,7 @@
         %ul
             %li
                 %label{:for => "curl_str"} Curl Parameters:
-                %br For example: -H "Content-Type: application/json" -X POST http://dmp.admobius.com/segmatch/1T52  -d '{"deviceid":"4e6b2c56365a7d2f1f4f0311ec12d0c6048646cd"}'
+                %br For example: -H "Content-Type: application/json" -X POST --silent http://search.twitter.com/search.json?q=pcnak&lang=en&result_type=recent&rpp=50
                 %br
                 %textarea{:name => "curl_str", :id => "curl_str", :cols=>132,
                :rows=>20, :class => "field span12"}
