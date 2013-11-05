@@ -29,6 +29,9 @@ Use RVM or System Ruby 2.x or later.
   - Capistrano, mod_passenger with Apache or Nginx
   - Capistrano with Unicorn and reverse proxy through Nginx
 
-### 3. Testing
+### 3. Sample
+  - http://curler.herokuapp.com
+
+### 4. Testing
 
   More on this later...
